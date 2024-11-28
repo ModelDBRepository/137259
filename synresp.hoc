@@ -1247,6 +1247,7 @@ forall for (xseg,0) {
 // The total membrane area is included in the seed
 // to allow each cell some distinctiveness.
 rand = new Random(randSeed+totSomaArea+totLMarea+totSRarea+totSOarea)
+rand.Random123()
 rand.normal(0,1)
 
 
